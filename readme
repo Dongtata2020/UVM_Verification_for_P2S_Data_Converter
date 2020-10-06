@@ -1,0 +1,17 @@
+This is a mini project for UVM verification which will take you up to three days and it is suitable for inexperienced verification engineers.
+
+You will understand the basic composition and operating mechanism of the UVM verification environment through this project.
+
+
+In order to learn about UVM verification, you need to try actual projects. 
+As a beginner, it is difficult to access the actual project,so I selected a simple design from the book "Verilog Digital System Design Tutorial" by Xia Yuwen as the DUT.
+And i wrote UVM verification Environment around it to take the first step towards independent verification.
+
+The design files include out16hi.v ptosda.v and top.v.
+Tb file is tb.sv.
+Sim files include dt_pkg.sv m1_pkg.sv and m2_pkg.sv.
+My simulation software is QuestaSim 10.6c.
+There is a TCL script file named run.do for easier operation,so you can enter commands "do run.do" in the software to run the simulation quickly.
+Of corese you should compile all the file before doing this opration.
+
+More details are in file readme.docx.
