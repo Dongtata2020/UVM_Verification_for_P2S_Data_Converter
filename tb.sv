@@ -103,7 +103,7 @@ initial begin
   uvm_config_db#(virtual m1_intf)::set(uvm_root::get(), "uvm_test_top.env.m2_agt", "m1_vif", m1_if);
   uvm_config_db#(virtual m2_intf)::set(uvm_root::get(), "uvm_test_top.env.m2_agt", "m2_vif", m2_if);
   uvm_config_db#(virtual m2_intf)::set(uvm_root::get(), "uvm_test_top.env.chker.*", "m2_vif", m2_if);
-  run_test("mcdf_data_consistence_basic_test");
+  run_test("basic_data_transform_test");
 end
 
 

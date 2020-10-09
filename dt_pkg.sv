@@ -270,6 +270,11 @@ package dt_pkg;
     endfunction
 
     task run_phase(uvm_phase phase);
+	  `uvm_info("[RUN_PHASE","we can display before raising objection",UVM_HIGH)
+	  /* test for objection mechanism
+	  #1ps
+	  `uvm_info("[RUN_PHASE","after 1ps,we can display before raising objection",UVM_HIGH) 
+	  */
       // NOTE:: raise objection to prevent simulation stopping
       phase.raise_objection(this);
       this.run_top_virtual_sequence();
